@@ -9,7 +9,7 @@ body{
      font-family: 'Work Sans', sans-serif;
 }
 .nav-container{
-    border: 1px solid red;
+   
     padding: 0 100PX;
     min-height: 50px;
     display: flex;
@@ -197,6 +197,7 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
       padding-right: 90px;
       margin-bottom: 60px;
 }
+
  .unleash{
 color: #534C64;
 font-family: Work Sans;
@@ -248,4 +249,171 @@ font-weight: 700;
     font-style: normal;
     font-weight: 550;
     padding-left: 25px;
+}
+/*card section end hare*/
+
+.third-bannar{
+      
+      display: flex;
+      justify-content: space-between;
+       max-width: 1200px;
+       margin:0px auto ;
+       height: 500px;
+       text-align: end;
+
+}      
+ .bannar-text3{
+    width: 50%;
+    
+    text-align: end;
+    padding-top: 90px;
+    padding-right: 50px;
+
+ }
+ .bannar-img3{
+   
+      
+      width: 50%;
+ }
+ .bannar-img3 img{
+    border: 5px solid black;
+    height: 80%;
+    width:70% ;
+   margin-top: 50px;
+   margin-right: 100px;
+    position: relative;
+   
+ }
+ .bannar-img3 :last-child{
+    position: relative;
+   border: 5px solid black;
+   width: 25%;
+   height: 170px;
+   margin-top: 0px;
+   margin-left: 40px;
+ }
+ .card2 img{
+    width:30%;
+    height: 30%;
+    
+ }
+
+/*third bannar section end hare*/
+
+ .career-bannar{
+
+     border: 2px solid red;
+     display: flex;
+     justify-content: space-between;
+     max-width: 1200px;
+     margin:0px auto ;
+     min-height: 250px;
+    background-color: #F948B2;
+ }
+
+ .career-bannar-text{
+
+     width: 50%;
+     padding-top: 10px;
+     padding-left: 30px;
+     color: #FFF;
+     
+     font-family: Work Sans;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 30;
+
+ }
+ .career-bannar-text h2{
+
+    font-size: 35px;
+    font-weight: 600;
+
+
+ }
+ 
+    
+ .content-2{
+    display: flex;
+    justify-content: space-between;
+ }
+.div-content-2{
+     text-align: end;
+}
+
+.career-bannar-text button{
+
+    display: inline-flex;
+    padding: 13px 25px;
+    align-items: flex-start;
+    gap: 10px;  
+    border-radius: 48px;
+    background: #FFF; 
+    color:#FF42A5;
+    margin-top:30px ;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+
+    
+}
+
+ .career-bannar-img{
+    
+    width: 50%;
+ }
+
+
+
+.career-bannar-img img{
+           
+   width: 100%;
+    
+}
+/*career bannar section end hare*/
+ 
+
+.footer-section{
+
+   border: 2px solid red;
+   max-width: 1200px;
+   margin:0px auto ;
+   background: #0B0223;
+   color: #FFF;
+
+
+}
+.headline{
+border: 1px solid wheat;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        margin: 50px 500px;
+        height: 50px;
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        color: #FFF;
+        
+}
+.g-pink{
+
+      color: #FF42A5;
+}
+
+.secand-line{
+
+   
+   display: flex;
+   justify-content: space-evenly;
+   font-size: 25px;
+      
+
+
 }
