@@ -108,6 +108,9 @@ border-radius:10px;
 
 
 }
+.one-click{
+    padding-left:10px;
+}
 .bannar-text{
    background-image: url(B8A2-Gamer-Zone-main/images/Group\ 14.png);
    width:500px ;
@@ -162,6 +165,9 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 .go-btn{
     background: #4EC5F7;
 
+}
+.para{
+   
 }
 /*bannar-1 end hare*/
 
@@ -331,7 +337,7 @@ font-weight: 700;
  .career-bannar-text{
 
      width: 50%;
-     padding-top: 50px;
+     padding-top: 10px;
      padding-left: 90px;
      color: #FFF;
      
@@ -391,8 +397,81 @@ font-weight: 700;
     
 }
 /*career bannar section end hare*/
- 
 
+
+/*bannar-4 section Start hare*/
+
+
+ .bannar-4{
+      
+      max-width: 1200px;
+      margin: 0 auto;
+      min-height: 220px;
+
+
+ }
+.fast-line{
+    
+     display: flex;
+     justify-content: space-between;
+     
+     margin: 50px 50px;
+
+}
+
+.box{
+     
+     display: flex;
+     
+     margin: 0 auto;
+    
+    padding-left: 0;
+    padding-right: 50px;
+}
+ .text{
+
+     
+       text-align: start;
+       margin: 0 auto;
+       align-items: center;
+       padding: 15px 10px;
+      font-family: Work Sans;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 605;
+   
+ }
+
+ .secand-line2{
+      
+      display: flex;
+      align-items: center;
+      margin: 50px;
+      padding: 0 160px;
+       
+ }
+
+ .secand-line2 p{
+    font-family: Work Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 605;
+    text-align: center;
+    padding-left:3px;
+    padding-right: 10px;
+ }
+
+ .secand-line2 img{
+    
+          
+           
+           padding-left: 10px;
+           padding-right: 0;
+ }
+/*bannar-4 section end hare*/
+
+/*footer section Start hare*/
+ 
 .footer-section{
    max-width: 1200px;
    height: 400px;
@@ -432,6 +511,13 @@ font-weight: 700;
    display: flex;
    justify-content: space-evenly;
    font-size: 25px;
+}
+.social-icon{
+      
+       display: flex;
+       justify-content: space-around;
+       margin: 0 auto; 
+       padding: 0 250px;
 }
 .third-text{
     
