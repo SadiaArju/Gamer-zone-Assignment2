@@ -1,0 +1,454 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Work+Sans:wght@400;600;900&display=swap');
+*{
+     box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Lato', sans-serif;
+     font-family: 'Work Sans', sans-serif;
+}
+.nav-container{
+   
+    padding: 0 100PX;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto ;
+    max-width: 1200px;
+    background-color: #FFF;;
+    align-items: center;
+}
+.logo-container{
+   
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 0  00px;
+    height: 50px;
+}
+.logo-container img{
+    
+   width: 85px;
+   height: 40px;
+   object-fit: cover;
+   
+}.logo-container p{
+   font-size: 30px; 
+   font-family: Work Sans;
+   font-size: 45px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+ .g-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ }
+
+.nav-item-container{
+    
+    display: flex;
+    
+    gap: 20px;
+     align-items: center;
+}
+
+
+.nav-item-container a{
+    
+    text-decoration: none;
+    color: #3C354F;
+   
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-left: 15px;
+
+}
+
+.icon-btn{
+background-color:rgba(11, 2, 35, 0.10);
+width: 240px;
+height: 35px;
+flex-shrink: 0;
+border-radius:10px;
+
+
+}
+.icon-btn img{
+    width:40px;
+    height: 22px;
+    flex-shrink: 0;
+    margin-top: 6.5px;
+    
+}
+
+.nav-item-container img{
+    padding-left: 10px;
+    align-items: center;
+    
+}
+ 
+/*nav design end hare*/
+
+
+.bannar-1{
+   
+   
+    margin:0 auto ;
+    
+   max-width:1200px;
+   height: 500px;
+   display: flex;
+
+
+}
+.bannar-text{
+   background-image: url(B8A2-Gamer-Zone-main/images/Group\ 14.png);
+   width:500px ;
+   padding: 50px 100px ;
+}
+.bannar-img{
+   
+    width: 50%;
+    
+}
+.bannar-img img{
+    width: 100%;
+    height:100%;
+    padding-left: 50px;
+}
+.bannar-text h1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  
+    font-family: Work Sans;
+    font-size: 40px;
+    
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    
+}
+
+ .click p{
+    padding-left:0px;
+   
+ }
+ 
+button{
+display: inline-flex;
+padding: 10px 25px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+color: #FFF;
+font-family: Work Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border: none;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.go-btn{
+    background: #4EC5F7;
+
+}
+/*bannar-1 end hare*/
+
+
+/*bannar-2 Start hare*/
+
+.bannar-2{
+    
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    height: 400px;
+    align-items: center;
+    margin:0 auto ;
+    
+}
+
+.bannar-img2{
+    
+    width: 50%;
+    height: 400px
+    
+}
+.bannar-img2 img{
+
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+.bannar-text2{
+      
+      width: 50%;
+      text-align: end;
+      padding-right: 90px;
+      margin-bottom: 60px;
+}
+
+ .unleash{
+color: #534C64;
+font-family: Work Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+
+}
+.gradiant{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+} 
+
+/*bannar-2 end hare*/
+
+/*card section Start hare*/
+
+.grid-container{
+     
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     padding:80px;
+     max-width: 1200px;
+     margin:0 auto ;
+     min-height: 100px;
+
+}
+.card-header{
+  
+   max-width: 1200px;
+   text-align: center;
+   padding-top: 70px;
+   margin: 0 auto ;
+  
+
+
+}
+
+
+.card-section img{
+    width: 100%;
+   align-items: center;
+   margin-right: 40px;
+   padding: 10px;
+}
+.card-section p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 550;
+    padding-left: 25px;
+}
+/*card section end hare*/
+
+.third-bannar{
+      
+      display: flex;
+      justify-content: space-between;
+       max-width: 1200px;
+       margin:0px auto ;
+       height: 450px;
+       text-align: end;
+
+}      
+ .bannar-text3{
+    width: 50%;
+    
+    text-align: end;
+    padding-top: 150px;
+    padding-right: 50px;
+
+ }
+ .bannar-img3{
+     
+      min-height: 400px;
+      width: 50%;
+ }
+ .bannar-img3 img{
+    
+    height: 65%;
+    width:55% ;
+   margin-top: 50px;
+   margin-right: 120px;
+    position: relative;
+   
+ }
+ .bannar-img3 :last-child{
+    position: relative;
+  
+   width: 25%;
+   height: 170px;
+   margin-top: 0px;
+   margin-left: 40px;
+ }
+ .card2 img{
+    width:30%;
+    height: 30%;
+    
+
+
+ }
+ #aaaa{
+    position: absolute;
+    left: 40px;
+    top: 220px;
+    
+   
+
+ }
+ #third{
+    position: relative;
+ }
+/*third bannar section end hare*/
+
+ .career-bannar{
+
+    
+     display: flex;
+     justify-content: space-between;
+     max-width: 1200px;
+     margin:0px auto ;
+     min-height: 250px;
+    background-color: #F948B2;
+ }
+
+ .career-bannar-text{
+
+     width: 50%;
+     padding-top: 50px;
+     padding-left: 90px;
+     color: #FFF;
+     
+     font-family: Work Sans;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 30;
+
+ }
+ .career-bannar-text h2{
+
+    font-size: 35px;
+    font-weight: 600;
+
+
+ }
+ 
+    
+ .content-2{
+    display: flex;
+    justify-content: space-between;
+ }
+.div-content-2{
+     text-align: end;
+}
+
+.career-bannar-text button{
+
+    display: inline-flex;
+    padding: 13px 25px;
+    align-items: flex-start;
+    gap: 10px;  
+    border-radius: 48px;
+    background: #FFF; 
+    color:#FF42A5;
+    margin-top:30px ;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+
+    
+}
+
+ .career-bannar-img{
+    
+    width: 50%;
+ }
+
+
+
+.career-bannar-img img{
+           
+   width: 100%;
+    
+}
+/*career bannar section end hare*/
+ 
+
+.footer-section{
+   max-width: 1200px;
+   height: 400px;
+   margin:0px auto ;
+   
+   background: #0B0223;
+   color: #FFF;
+
+
+}
+.headline{
+
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding-left: 460px;
+        padding-top: 80px;
+        padding-bottom: 50px;
+        height: 50px;
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        color: #FFF;
+        
+}
+.g-pink{
+
+      color: #FF42A5;
+}
+
+.secand-line{
+
+   
+   display: flex;
+   justify-content: space-evenly;
+   font-size: 25px;
+}
+.third-text{
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 60px;
+    margin-right: 60px;
+   
+    
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.pub{
+ 
+  text-align: center;
+  color: rgba(255, 255, 255, 0.60);
+   margin-top: 0;
+ 
+}
